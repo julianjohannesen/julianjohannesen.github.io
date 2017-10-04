@@ -21,11 +21,12 @@ h2,
 h3,
 h4,
 h5,
-h6,
-h6.powered_by {
+h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: 1;
+}
+h6.powered_by {
   font-size: 13px;
   margin-top: 0px;
 }
