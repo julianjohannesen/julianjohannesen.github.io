@@ -36,33 +36,47 @@
 
         <!-- Add your site or application content here -->
 
-        <header>
+        <header class="pageHeader">
             <h1>Welcome to my Github portfolio page.</h1>
             <h2>Please feel free to browse the projects below.</h2>
         </header>
-        <nav>
+        <nav class="pageNav">
             <ul>
-                <li>About</li>
+                <li><a href="#about">About</a></li>
                 <li>Blog</li>
                 <li>
-                    Projects
-                    <ul>
+                    Projects ￬
+                    <ul class="visuallyhidden">
                         <li>IMDB Lite</li>
                         <li>Top9</li>
 
                     </ul>
                 </li>
+                <li>Contact</li>
 
             </ul>
         </nav>
-        <main>
-            <header></header>
+        <main class="pageMain">
+            <header>
+                <h1>An article title</h1>
+                <p>Some other header content</p>
+            </header>
             <article>
                 <section>
-                    <p></p>
+                    <p>Some article text in a paragraph in a section.</p>
                 </section>
             </article>
         </main>
+        <footer class="pageFooter">
+            <section id="about">
+                <p>
+                    For the past twelve years I've worked for Nonprofit VOTE, conducting research on nonpartisan voter engagement for 501(c)(3) nonprofits service providers and community-based organizations, creating educational materials, and conducting trainings to help service-oriented 501(c)(3)s easily integrate voter-engagement activities into their ongoing work. While at Nonprofit VOTE, I was also head technology and web development in which capacity I've spearheaded the expansion of our online presence and oversaw development of our websites and online tools. You can read more about my work at Nonprofit Vote on my LinkedIn profile.</p>
+
+                <p>
+                    In October of 2017, I began exploring a career switch to web development with a special interest in civic tech. I enrolled in a night course at First Step Coding, an 8-week introduction to JavaScript fundamentals. While at First Step, I became increasingly confident in my ability to successfully transition into this new career, and in January of 2018, I left Nonprofit VOTE and pursue re-training full-time.</p>
+                </p>
+            </section>
+        </footer>
 
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
