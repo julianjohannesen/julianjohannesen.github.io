@@ -97,6 +97,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/****** LAYOUT *****/
 body {
     display: grid;
     grid-gap: 20px;
@@ -115,12 +116,6 @@ nav.pageNav {
 
 }
 
-    nav ul {
-        
-    }
-
-
-
 main.pageMain {
     border: 1px solid gray;
     grid-area: main;
@@ -128,41 +123,54 @@ main.pageMain {
 }
 
 footer.pageFooter {
-    grid-area: footer
+    grid-area: footer;
     border: 1px solid gray;
 
 }
 
 @media (min-width: 500px) {
-  .wrapper {
-    grid-template-columns: 1fr 3fr;
+  body {
+    grid-template-columns: 3rem 1fr 1fr 3rem;
     grid-template-areas: 
-      "header  header"
-      "nav     nav"
-      "main    nav"
-      "footer  footer";
+      "header    header  header     header"
+      ".    nav     nav        ."
+      ".    main    main       ."
+      "footer    footer  footer     footer";
   }
 
-  nav ul {
+/***** NAVIGATION *****/
+nav ul {
     display: flex;
     justify-content: space-between;
-  }
+    list-style-type: none;
+        }
+
+    nav ul li {
+        border: 1px solid gray;
+            }
+
+    nav ul li a {
+        text-decoration: none;
+        }
+
+
+header.pageHeader {
+    background-color:yellow;
+    padding: 1rem;
 }
 
-@media (min-width: 700px) {
-    .wrapper {
-        grid-template-columns: 1fr 4fr 1fr;
-        grid-template-areas: 
-            "header     header      header" 
-            "nav           nav         nav" 
-            "main       main        main"
-            "footer     footer      footer"
-    }
-
-    nav ul {
-        flex-direction: column;
-    }
+footer.pageFooter{
+    background-color: #000;
+    text-align:center;
 }
+footer.pageFooter p {
+    color:#FFF;
+}
+
+h1, h2 {
+    
+}
+
 
 /* ==========================================================================
    Helper classes
