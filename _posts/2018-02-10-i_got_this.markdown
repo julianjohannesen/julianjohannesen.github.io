@@ -5,7 +5,7 @@ date:       2018-02-10 00:05:22 -0500
 permalink:  i_got_this
 ---
 
-<p>I enrolled at <a href="http://flatironschool.com">FlatIron School</a> today. If you’ve never heard of it, FlatIron is one of the most successful operations in the code bootcamp industry. Over 800 hours, FlatIron attempts to prepare students for a junior position in web development. Enrolling at FlatIron is a big step for me. It’s a major milestone in my transition into this new career.</p>
+<p>I enrolled at <a href="http://flatironschool.com">FlatIron School</a> today. If you’ve never heard of it, FlatIron is one of the more successful operations in the code bootcamp industry. Over 800 hours, FlatIron attempts to prepare students for a junior position in web development. Enrolling at FlatIron is a big step for me. It’s a major milestone in my transition into this new career.</p>
 
 <p>Switching careers at age 46 is scary. It’s scary, right? I should be scared. I mean, I just left my job of 12 years - a job I loved at a nonprofit doing absolutely amazing work - to embark on a new career in a field about which I know very little. What if things don’t work out? How will I pay my mortgage? And I'm 46.  That's old! Can my brain even handle learning a skill like computer programming? </p>
 
