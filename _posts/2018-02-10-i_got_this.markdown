@@ -1,17 +1,25 @@
 ---
 layout: post
 title:      "I Got This"
-date:       2018-02-10 05:05:21 +0000
+date:       2018-02-10 00:05:22 -0500
 permalink:  i_got_this
 ---
 
 I enrolled at [FlatIron School](http://flatironschool.com) today. If you’ve never heard of it, FlatIron is one of the most successful operations in the code bootcamp industry. Over 800 hours, FlatIron attempts to prepare students for a junior position in web development. Enrolling at FlatIron is a big step for me. It’s a major milestone in my transition into this new career.
+
 Switching careers at age 46 is scary. It’s scary, right? I should be scared. I mean, I just left my job of 12 years - a job I loved at a nonprofit doing absolutely amazing work - to embark on a new career in a field about which I know very little. What if things don’t work out? How will I pay my mortgage? And I'm 46.  That's old! Can my brain even handle learning a skill like computer programming? 
+
 But I’m not scared. Not really. There’s not a doubt in my mind that I will be successful in this adventure. If I were you and I had just read the last line, I’d be thinking, “Well, la-di-da, Mr. Confident. It must be nice being you.” I want you to know that I’m not the type of person who often writes things like “There’s not a doubt in my mind that I will be successful.” It feels weird. 
+
 That confidence is the result of a lot of research and preparation. If you’ve seen an article floating around Medium about switching careers, or about attending a coding bootcamp, or job prospects for bootcamp graduates versus computer science graduates (that’s a popular one), well, I’ve probably seen it too. I’ve spoken to bootcamp graduates, bootcamp instructors, bootcamp recruiters, friends who are self-taught and who worked their way up in web development, and just about anyone else who will stand still long enough for me to ask them a question or two about any of the above. I’ve spent hours poring over [SwitchUp.org](http://switchup.org) and [CourseReport.com](http://coursereport.com).
+
 Most importantly, I attended an absolutely fantastic bootcamp prep program at [First Step Coding](http://firststepcoding.com). Over 8 weeks at FSC I dug into real, albeit fairly simple, programming challenges. I used my first nested for loop. I wrote my first function. By the time I graduated, I’d used The Movie Database’s API to create an application to display the top grossing movies in any given year by genre. And most importantly, I learned that I loved doing those things. 
+
 That I loved coding didn’t come as complete surprise to me. I've been interested in the internet since the 80's. I remember how absolutely awestruck I was by [MUDs](https://en.wikipedia.org/wiki/MUD), when I first heard about them in 1985. The first MUD appeared in '78, but I was bit behind the curve. I remember thinking, "You mean to tell me that hundreds of people from all over the world can play a game in a virtual world of their own making, all in real time? I'm living in the future!" Pretty geeky. I was completely swept up in the internet euphoria of the 90's. That feeling of awe and optimism about the “information age” has never waned. 
+
 In 2006, soon after I’d started at the job I just left, I used WordPress version 2.0 to create the company’s first website. I was so excited by the possibilities in WordPress that I ended up spending nights and weekends reading the documentation and fiddling with the site. As the company grew, my responsibilities shifted away from that work, but I remained an avid hobbyist for years, before drifting away from web development.
+
 So, I’ve come by confidence honestly. It’s been a long time in the making.
+
 I can’t tell you how excited I am to be a student at FlatIron School. Onward and upward!
 
