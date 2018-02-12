@@ -5,13 +5,13 @@ date:       2018-02-10 00:05:22 -0500
 permalink:  i_got_this
 ---
 
-<p>I enrolled at <a href="http://flatironschool.com">FlatIron School</a> today. If you’ve never heard of it, FlatIron is one of the more successful operations in the code bootcamp industry. Over 800 hours, FlatIron attempts to prepare students for a junior position in web development. Enrolling at FlatIron is a big step for me. It’s a major milestone in my transition into this new career.</p>
+<p>I enrolled at <a href="http://flatironschool.com">Flatiron School</a> today. If you’ve never heard of it, Flatiron is one of the more successful operations in the code bootcamp industry. Over 800 hours, Flatiron attempts to prepare students for a junior position in web development. Enrolling at Flatiron is a big step for me. It’s a major milestone in my transition into this new career.</p>
 
 <p>Switching careers at age 46 is scary. It’s scary, right? I should be scared. I mean, I just left my job of 12 years - a job I loved at a nonprofit doing absolutely amazing work - to embark on a new career in a field about which I know very little. What if things don’t work out? How will I pay my mortgage? And I'm 46.  That's old! Can my brain even handle learning a skill like computer programming? </p>
 
-<p>But I’m not scared. Not really. There’s not a doubt in my mind that I will be successful in this adventure. If I were you and I had just read the last line, I’d be thinking, “Well, la-di-da, Mr. Confident. It must be nice being you.” I want you to know that I’m not the type of person who often writes things like “There’s not a doubt in my mind that I will be successful.” It feels weird. </p>
+<p>But I’m not scared. Not really. There’s not a doubt in my mind that I will be successful on this new adventure. If I were you and I had just read the last line, I’d be thinking, “Well, la-di-da, Mr. Confident. It must be nice being you.” I want you to know that I’m not the type of person who often writes things like “There’s not a doubt in my mind that I will be successful.” It feels weird. </p>
 
-<p>That confidence is the result of a lot of research and preparation. If you’ve seen an article floating around Medium about switching careers, or about attending a coding bootcamp, or job prospects for bootcamp graduates versus computer science graduates (that’s a popular one), well, I’ve probably seen it too. I’ve spoken to bootcamp graduates, bootcamp instructors, bootcamp recruiters, friends who are self-taught and who worked their way up in web development, and just about anyone else who will stand still long enough for me to ask them a question or two about any of the above. I’ve spent hours poring over <a href="http://switchup.org">SwitchUp.org</a> and <a href="http://coursereport.com">CourseReport.com</a>.</p>
+<p>That confidence is the result of a lot of research and preparation. If you’ve seen an article floating around Medium about switching careers, or about attending a coding bootcamp, or job prospects for bootcamp graduates versus computer science graduates (that’s a popular one), well, I’ve probably seen it too.  I’ve spent hours poring over <a href="http://switchup.org">SwitchUp.org</a> and <a href="http://coursereport.com">CourseReport.com</a>. I’ve spoken to bootcamp graduates, bootcamp instructors, bootcamp recruiters, friends who are self-taught and who worked their way up in web development, and just about anyone else who will stand still long enough for me to ask them a question or two about any of the above.</p>
 
 <p>Most importantly, I attended an absolutely fantastic bootcamp prep program at <a href="http://firststepcoding.com">First Step Coding</a>. Over 8 weeks at FSC I dug into real, albeit fairly simple, programming challenges. I used my first nested for loop. I wrote my first function. By the time I graduated, I’d used The Movie Database’s API to create an application to display the top grossing movies in any given year by genre. And most importantly, I learned that I loved doing those things. </p>
 
@@ -21,5 +21,5 @@ permalink:  i_got_this
 
 <p>So, I’ve come by confidence honestly. It’s been a long time in the making.</p>
 
-<p>I can’t tell you how excited I am to be a student at FlatIron School. Onward and upward!</p>
+<p>I can’t tell you how excited I am to be a student at Flatiron School. Onward and upward!</p>
 
