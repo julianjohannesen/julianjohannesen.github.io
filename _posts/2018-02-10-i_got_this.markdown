@@ -22,7 +22,7 @@ permalink:  i_got_this
 
 <p>Pramp had provided each of us a problem to present when it was our turn to take on the role of interviewer. We were also given hints and a complete solution to the problem we’d be presenting. That way, the interviewer could provide the interviewee a bit of coaching when they got stuck.</p>
 
-<p>Neither of us had been in a actual technical interview, and we didn’t really know what we were doing. My partner was a bit more experienced than I was and I asked him if I could take on the interviewer role first, to give me time to get over some of my jitters.&nbsp;</p>
+<p>Neither of us had been in an actual technical interview, and we didn’t really know what we were doing. My partner was a bit more experienced than I was and I asked him if I could take on the interviewer role first, to give me time to get over some of my jitters.&nbsp;</p>
 
 <p>The problem was pretty tough. My partner had some good ideas, but wasn’t quite able to get to a solution. I did my best to coach him, but I’d spent an hour the night before going over the problem and I hadn’t been able to solve it either.</p>
 
@@ -30,7 +30,7 @@ permalink:  i_got_this
 
 <p>The interview was about an hour long. Once it was over, Pramp popped up a questionnaire and we each provided detailed feedback about the other’s interview performance and interviewing style.</p>
 
-<p>What I found most valuable about this experience was being put on the spot and forced to perform in front of one of my peers. It was just as nerve-wracking as it sounds. Code challenge sites are great, and they’ll help you learn what you need to learn to solve the kinds of problems you’ll encounter in a real interview, but they can’t prepare you for what I experienced as soon as my partner’s face popped up on my screen: shyness, self-doubt, performance anxiety, impostor syndrome, and all of the physical manifestations of these feelings&#8202;—&#8202;the whole panoply of horribleness that afflicts so many of us when we’re on the spot.</p>
+<p>What I found most valuable about this experience was being put on the spot and forced to perform in front of one of my peers. It was just as nerve-wracking as it sounds. As soon as my partner’s face popped up on my screen, I began to experience all of the horribleness that afflicts so many of us, when we're put on the spot: shyness, self-doubt, performance anxiety, impostor syndrome, and all of the physical manifestations of these feelings.</p>
 
 <p>Remembering to adhere to interview best practices when experiencing stress is tricky. Talk through the problem. State the input and output. Use pseudo-code to walk through the logic before writing any code. Focus on getting as far as you can, rather than getting to the solution. Explain your thinking. That’s great advice, but I found it very hard to follow as I wondered whether my partner was annoyed at me for wasting his time and whether I really had the chops to solve the logical and mathematical problems programmers encounter every day.&nbsp;</p>
 
