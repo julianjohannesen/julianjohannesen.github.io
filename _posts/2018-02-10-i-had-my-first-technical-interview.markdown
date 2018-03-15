@@ -2,7 +2,7 @@
 layout: post
 title:      "I Had My First Technical Interview (sort of)!"
 date:       2018-02-10 00:05:22 -0500
-permalink:  i_got_this
+permalink:  i_had_my_first_technical_interview
 ---
 
 
