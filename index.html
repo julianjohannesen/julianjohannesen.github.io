@@ -1,100 +1,36 @@
-﻿<!doctype html>
-<html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Julian Johannesen</title>
-        <meta name="description" content="The portfolio page of Julian Johannesen">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+---
+layout: page
+---
 
-        <link rel="apple-touch-icon" href="icon.png">
-        <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-        <link rel="manifest" href="/manifest.json">
-        <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-        <meta name="theme-color" content="#ffffff">
+{% for post in paginator.posts %}
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+    </a>
+    {{ post.excerpt }}
+    <p class="post-meta">Posted by {% if site.author %}{{ site.author }}{% else %}{{ site.github_username }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+</div>
+<hr>
+{% endfor %}
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
-        <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-
-        <!-- Add your site or application content here -->
-
-        <header class="pageHeader">
-            <h1>Julian Johannesen</h1>
-            <h2>Aspiring Front End Developer</h2>
-        </header>
-        <nav class="pageNav" role="navigation">
-            <!--Hamburger menu to possibly implement later-->
-            <!--
-            <label for="pageNavToggle" class="pageNavLabel">Menu</label>
-            <input type="checkbox" id="pageNavToggle" class="pageNavToggle">
-            -->
-
-            <ul class="pageNavList">
-                <li class="pageNavListItem"><a href="../about">About</a></li>
-                <li class="pageNavListItem"><a href="#">Blog</a></li>
-                <li class="pageNavListItem">
-                    <a href="#">Projects ￬</a>
-                    <ul class="pageNavSubList visuallyhidden">
-                        <li class="pageNavSubListItem"><a href="#">IMDB Lite</a></li>
-                        <li class="pageNavSubListItem"><a href="#">Top9</a></li>
-
-                    </ul>
-                </li>
-                <li class="pageNavListItem"><a href="#">Contact</a></li>
-
-            </ul>
-        </nav>
-        <main class="pageMain">
-            <header>
-                <h1>An article title</h1>
-                <p>Some other header content</p>
-            </header>
-            <article>
-                <section>
-                    <p>Some article text in a paragraph in a section.</p>
-                </section>
-            </article>
-        </main>
-        <footer class="pageFooter">
-            <form method="POST" action="https://formspree.io/julian.johannesen@gmail.com">
-                <input type="email" name="email" placeholder="Your email">
-                <textarea name="message" placeholder="Your message"></textarea>
-                <button type="submit">Send</button>
-            </form>
-            <section>
-                <p>Copyright 2018, Julian Johannesen</p>
-            </section>
-        </footer>
-
-        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-
-        <!-- Google Analytics -->
-        <script>
-            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-            ga('create','UA-111753135-1','auto');ga('send','pageview')
-        </script>
-        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-    </body>
-</html>
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}
