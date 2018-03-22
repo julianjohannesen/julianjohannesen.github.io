@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="My journey into web development
+">
+
+    <title>I Had My First Technical Interview (sort of)! - Adventures in Coding</title>
+
+    <link rel="canonical" href="http://localhost:4000/i_had_my_first_technical_interview">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+
+<body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <a class="navbar-brand navbar-right" href="https://learn.co" target="_blank">
+            <h6 class="powered_by">Powered by
+                <svg id='svg__logo--text' viewBox='0 0 130.5 42' fill="currentColor" width="50" class="svg-center">
+                  <path d='M41.2,29.5h13v5.1h-19V8h6V29.5z'/>
+                  <path d='M61.1,26.7c0.4,2.6,1.9,4.1,4.3,4.1c1.5,0,2.6-0.5,3.4-1.7h5.7c-1.1,3.8-4.7,6.1-9.3,6.1 c-5.9,0-9.9-4.1-9.9-10.1c0-6,4-10.2,9.9-10.2c4.1,0,7.1,2,8.6,5.7c0.7,1.7,1,3.5,1,6.1H61.1z M68.9,22.7 c-0.2-2.3-1.6-3.5-3.8-3.5c-2.2,0-3.6,1.2-4.1,3.5H68.9z'/>
+                  <path d='M77.7,21.4c0.4-4.4,3.1-6.6,8.5-6.6c2.9,0,5.1,0.7,6.7,2c1.4,1.2,1.9,2.8,1.9,5.6v8.9 c0,2.1,0.1,2.4,0.7,3.3h-5.8c-0.2-0.7-0.2-0.8-0.4-1.5c-1.9,1.6-3.2,2-5.5,2c-4.3,0-7.1-2.4-7.1-6c0-3.6,2.3-5.5,7.7-6.4l3.1-0.5 c1.3-0.2,1.7-0.5,1.7-1.3c0-1.1-1.1-1.8-3-1.8c-2.1,0-3.2,0.7-3.4,2.3H77.7z M89.3,25.5c-0.6,0.2-1.1,0.4-2.1,0.6l-2,0.4 c-2,0.5-2.9,1.2-2.9,2.3c0,1.3,1.1,2,2.9,2c1.9,0,3.2-0.8,4.2-2.4V25.5z'/>
+                  <path d='M104.4,15.4l-0.2,3.4c1.1-3.1,2.6-4,6.7-4v5.3c-0.7-0.1-1-0.1-1.4-0.1c-2,0-3.6,0.9-4.2,2.3 c-0.6,1.3-0.8,3.1-0.8,6.8v5.4h-5.7V15.4H104.4z'/>
+                  <path d='M118.5,15.4v1.9c2.1-1.9,3.3-2.4,5.3-2.4c4.2,0,6.7,2.8,6.7,7.3v12.5h-5.7V24.1c0-2-0.1-2.7-0.6-3.4 c-0.5-0.7-1.3-1.1-2.3-1.1c-1,0-1.8,0.4-2.4,1c-0.6,0.7-0.8,1.5-0.8,3.2v10.8H113V15.4H118.5z'/>
+                  <path stroke-miterlimit='10' d='M15.1,22l8.4,0l-8.4,13.9V22z M12.4,5.6l0,13.7H4.1L12.4,5.6z M12.6,1L0.7,20.4c-0.2,0.3-0.2,0.7,0,1c0.2,0.4,0.6,0.5,1,0.5l10.8,0l0,18.4c0,0.5,0.3,1,0.8,1.1c0.1,0,0.2,0.1,0.3,0.1 c0.4,0,0.8-0.2,1-0.5l11.7-19c0.2-0.3,0.3-1.1,0.3-1.5c-0.2-0.8-0.5-1.2-1.2-1.2H15.2l0-17.5c0-0.5-0.4-1.1-1.3-1.2 c-0.1,0-0.2,0-0.3,0C13.2,0.5,12.8,0.7,12.6,1'/>
+                </svg>
+            </h6>
+        </a>
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                
+				
+                <li>
+                    <a href="/about">About</a>
+                </li>
+				
+                
+				
+                <li>
+                    <a href="/projects">Projects</a>
+                </li>
+				
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Post Header -->
+<header class="intro-header" style="background-image: url('/img/home-bg.png')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>I Had My First Technical Interview (sort of)!</h1>
+                    
+                    <span class="meta">Posted by julianjohannesen on February 10, 2018</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+				<p>As someone new to programming, and someone who will be entering the job market sometime in the next year, one my greatest fears is that I’ll sit down for a technical interview and be given a problem that just completely, humiliatingly flummoxes me. My palms get a bit sweaty just thinking about it. Consequently, when I think about preparing for interviews, I think about the number of hours I still need to put in solving the types of problems one encounters in these interviews. Can I use binary search to find the missing element in a sorted array of integers between 1 and 100? Can I, given two sequences, use tabulation hashing to find the length of the longest sub-sequence present in both? Etc.</p>
+
+<p>Fortunately, there are a lot of tools out there to help me. Code challenge sites like <a href="https://medium.com/r/?url=https%3A%2F%2Fwww.codewars.com%2Fdashboard" data-href="https://medium.com/r/?url=https%3A%2F%2Fwww.codewars.com%2Fdashboard" class="markup--anchor markup--p-anchor" data-tooltip="https://medium.com/r/?url=https%3A%2F%2Fwww.codewars.com%2Fdashboard" data-tooltip-position="bottom" data-tooltip-type="link" target="_blank">Code Wars</a>, <a href="https://medium.com/r/?url=https%3A%2F%2Fwww.hackerrank.com%2F" data-href="https://medium.com/r/?url=https%3A%2F%2Fwww.hackerrank.com%2F" class="markup--anchor markup--p-anchor" data-tooltip="https://medium.com/r/?url=https%3A%2F%2Fwww.hackerrank.com%2F" data-tooltip-position="bottom" data-tooltip-type="link" target="_blank">Hacker Rank</a>, and <a href="https://medium.com/r/?url=https%3A%2F%2Fleetcode.com%2F" data-href="https://medium.com/r/?url=https%3A%2F%2Fleetcode.com%2F" class="markup--anchor markup--p-anchor" data-tooltip="https://medium.com/r/?url=https%3A%2F%2Fleetcode.com%2F" data-tooltip-position="bottom" data-tooltip-type="link" target="_blank">Leet Code</a> do a great job of helping you to hone your programming skills. And they do a pretty good job of making it fun.&nbsp;</p>
+
+<p>But there’s another aspect of interview preparation that I think is often neglected: preparing oneself emotionally for the experience of enduring a technical interview. While there are any number of excellent books, articles and videos about how to prepare for an interview, none of them can fully prepare you emotionally for that experience: the butterflies, the clammy hands, the “oh, shit” realization that you’re about to be judged by someone you just met on your prowess as a programmer. It takes time and practice to become accustomed to those feelings and to gain the confidence that you can perform under pressure.</p>
+
+<p>That’s where <a href="https://medium.com/r/?url=https%3A%2F%2Fwww.pramp.com" data-href="https://medium.com/r/?url=https%3A%2F%2Fwww.pramp.com" class="markup--anchor markup--p-anchor" data-tooltip="https://medium.com/r/?url=https%3A%2F%2Fwww.pramp.com" data-tooltip-position="bottom" data-tooltip-type="link" target="_blank">Pramp</a> comes in. The service Pramp provides is fairly simple, but hard to come by elsewhere without significant cost. Pramp pairs software developers together for live practice interviews based on their professional background, availability and practicing needs&#8202;—&#8202;for free.</p>
+
+<p>When a fellow student in <a href="https://medium.com/r/?url=https%3A%2F%2Fwww.udacity.com%2Fgrow-with-google" data-href="https://medium.com/r/?url=https%3A%2F%2Fwww.udacity.com%2Fgrow-with-google" class="markup--anchor markup--p-anchor" rel="nofollow noopener noopener" data-tooltip="https://medium.com/r/?url=https%3A%2F%2Fwww.udacity.com%2Fgrow-with-google" data-tooltip-position="bottom" data-tooltip-type="link" target="_blank">Udacity’s Grow with Google Scholarship</a> program told me about <a href="https://medium.com/r/?url=https%3A%2F%2Fwww.pramp.com%2F" data-href="https://medium.com/r/?url=https%3A%2F%2Fwww.pramp.com%2F" class="markup--anchor markup--p-anchor" rel="nofollow noopener noopener" data-tooltip="https://medium.com/r/?url=https%3A%2F%2Fwww.pramp.com%2F" data-tooltip-position="bottom" data-tooltip-type="link" target="_blank">Pramp</a>, I knew I had to try it out.</p>
+
+<p>Signing up and scheduling my first interview was quick and easy. I filled out a short questionnaire about my area of study (front end) and skill level (beginner), and used the calendar tool to pick an available slot. A little while later, I received an email telling me that Pramp had paired me with a suitable interview partner.</p>
+
+<p>The interview took place a couple of days later via video chat. My partner and I used Pramp’s realtime collaborative code editor to watch each other work. Pretty cool and something that will be familiar to people who have used Zoom, Go to Meeting, Jitsi or other video conferencing platforms.&nbsp;</p>
+
+<p>Pramp had provided each of us a problem to present when it was our turn to take on the role of interviewer. We were also given hints and a complete solution to the problem we’d be presenting. That way, the interviewer could provide the interviewee a bit of coaching when they got stuck.</p>
+
+<p>Neither of us had been in an actual technical interview, and we didn’t really know what we were doing. My partner was a bit more experienced than I was and I asked him if I could take on the interviewer role first, to give me time to get over some of my jitters.&nbsp;</p>
+
+<p>The problem was pretty tough. My partner had some good ideas, but wasn’t quite able to get to a solution. I did my best to coach him, but I’d spent an hour the night before going over the problem and I hadn’t been able to solve it either.</p>
+
+<p>I went next. By this point, I’d started to relax a bit. My problem wasn’t as tough as my partner’s, but I still wasn’t able to get to the preferred solution. My partner did his best to coach me, but I just didn’t have the background necessary. I could easily provide the brute force solution, but wasn’t able to implement the algorithm that would have satisfied the problem’s constraints.</p>
+
+<p>The interview was about an hour long. Once it was over, Pramp popped up a questionnaire and we each provided detailed feedback about the other’s interview performance and interviewing style.</p>
+
+<p>What I found most valuable about this experience was being put on the spot and forced to perform in front of one of my peers. It was just as nerve-wracking as it sounds. As soon as my partner’s face popped up on my screen, I began to experience all of the horribleness that afflicts so many of us, when we're put on the spot: shyness, self-doubt, performance anxiety, impostor syndrome, and all of the physical manifestations of these feelings.</p>
+
+<p>Remembering to adhere to interview best practices when experiencing stress is tricky. Talk through the problem. State the input and output. Use pseudo-code to walk through the logic before writing any code. Focus on getting as far as you can, rather than getting to the solution. Explain your thinking. That’s great advice, but I found it very hard to follow as I wondered whether my partner was annoyed at me for wasting his time and whether I really had the chops to solve the logical and mathematical problems programmers encounter every day.&nbsp;</p>
+
+<p>But I know that with practice I can learn to manage my emotions, to become more relaxed, and to maintain the presence of mind I’ll need to implement all of those best practices I keep reading about. That’s why I’ll be using Pramp again, and frequently.</p>
+
+
+                <hr>
+
+                <ul class="pager">
+                    
+                    
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</article>
+
+<hr>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <li>
+                        <a href="https://learn.co/julianjohannesen">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <span class="learn-icon">&#66;</span>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/jjeadon">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    <li>
+                        <a href="https://github.com/julianjohannesen">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted">Copyright &copy; julianjohannesen 2018</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+</body>
+
+</html>

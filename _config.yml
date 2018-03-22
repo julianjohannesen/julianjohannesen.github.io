@@ -3,9 +3,8 @@ title: Adventures in Coding
 header-img: img/home-bg.png
 email: julian.johannesen@gmail.com
 copyright_name: julianjohannesen
-description: > # this means to ignore newlines until "baseurl:"
-  My journey into web development
-baseurl: "" # the subpath of your site, e.g. /blog
+description: My journey into web development
+baseurl: ""
 twitter_username: jjeadon
 github_username:  julianjohannesen
 learn_profile: julianjohannesen
@@ -16,6 +15,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+# exclude: ["less","node_modules","Gruntfile.js","package.json","README.md", 'vendor']
+exclude: ["node_modules","Gruntfile.js", 'vendor']
 
 gems: [jekyll-paginate, jekyll-feed]
