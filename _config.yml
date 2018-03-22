@@ -23,7 +23,7 @@ gems: [jekyll-paginate, jekyll-feed]
 
 # Navigation
 header_pages:
-  - home.html
+  - index.html
   - portfolio.html
   - about.html
   - contact.html
