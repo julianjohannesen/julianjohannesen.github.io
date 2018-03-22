@@ -16,6 +16,6 @@ highlighter: rouge
 permalink: pretty
 paginate: 5
 # exclude: ["less","node_modules","Gruntfile.js","package.json","README.md", 'vendor']
-exclude: ["node_modules","Gruntfile.js", 'vendor']
+exclude: ["node_modules", 'vendor']
 
 gems: [jekyll-paginate, jekyll-feed]
