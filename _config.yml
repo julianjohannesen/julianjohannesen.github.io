@@ -22,4 +22,9 @@ exclude: ["node_modules", 'vendor']
 gems: [jekyll-paginate, jekyll-feed]
 
 # Navigation
+header_pages:
+  - home.html
+  - portfolio.html
+  - about.html
+  - contact.html
 
