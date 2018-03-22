@@ -19,3 +19,6 @@ paginate: 5
 exclude: ["node_modules", 'vendor']
 
 gems: [jekyll-paginate, jekyll-feed]
+
+# Navigation
+
