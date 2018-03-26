@@ -21,6 +21,6 @@ exclude: ["node_modules", 'vendor']
 
 gems: [jekyll-paginate, jekyll-feed]
 
-# Navigation
-
+plugins:
+  - jekyll-sitemap
 
