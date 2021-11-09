@@ -3,6 +3,10 @@
     font-size: 16px;
 }
 
+header {
+    margin-bottom: 1em;
+}
+
 .bold {
     font-weight: 425;
 }
@@ -25,6 +29,11 @@
     font-size: 1.5rem;
 }
 
+img.findme {
+    width: 78px;
+    height: 23px;
+}
+
 ul, li, img {
     /* border: solid 1px red; */
 }
@@ -41,33 +50,36 @@ ul.container {
 
 div.flex {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row nowrap;
+    justify-content: space-around;
 }
 
 article {
-    min-width: 400px;
-    max-width: 900px;
+    max-width: 800px;
     padding: 1em;
     border: solid 1px lightgrey;
     border-radius: .25em;
-    margin: 1em auto;
-    
+    margin: 2em auto;
 }
 
 main {
-    width: 300px;
+    max-width: 50%;
 }
 
 figure.octocat {
-    width: 220px;
+    max-width: 35%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    align-content: flex-start;
 }
 
 img.octocat {
-    object-fit: cover;
-    height: 300px;
-    margin-left: -50px;
+    /* object-fit: cover; */
+    /* max-height: 375px;
+    max-width: 200px; */
 }
 
 figcaption.octocat {
-    margin-right: 100px;
+    /* width: 50%; */
 }
