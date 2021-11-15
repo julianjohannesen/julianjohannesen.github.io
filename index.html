@@ -12,15 +12,17 @@
 </head>
 
 <body>
-    <div class="columns box">
+    <div class="">
 
-        <header class="header hero">
-            <h1 class="title is-size-3">Julian Johannesen</h1>
-            <p class="subheader is">Welcome! My name is Julian Johannesen and I'm a frontend developer based in Boston,
-                MA. </p>
-        </header>
+        <section class="hero is-primary is-small">
+            <header class="hero-body">
+                <h1 class="title">Julian Johannesen</h1>
+                <h2 class="subtitle">Welcome! My name is Julian Johannesen and I'm a frontend developer based in Boston,
+                    MA. </h2>
+            </header>
+        </section>
 
-        <main>
+        <main class="columns">
             <section id="tools" class="section">
                 <h3 class="title is-size-5">Tools</h3>
                 <ul class="container">
@@ -110,7 +112,7 @@
                 </section>
                 -->
 
-            <section class="projects block">
+            <section id="projects" class="section">
                 <ul class="project-list">
                     <li class="project" style="width: 400px; height: 200px">
                         <div class="project-box box">
@@ -140,7 +142,7 @@
                 </ul>
             </section>
 
-            <section class="find-me block">
+            <section id="find-me" class="section">
                 <h3 class="title is-size-5">Where to find me</h3>
                 <p>
                     <a href="https://github.com/julianjohannesen" target="_blank">
@@ -157,15 +159,30 @@
                             src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" /></a>
                 </p>
             </section>
-        </main>
-        <figure class="octocat image is-3by4">
-            <img alt="Julian Johannesen's custom Octocat"
-                src="https://user-images.githubusercontent.com/252081/140809036-202933e0-6dc7-4cec-9e0a-3a5f63a20813.png" />
-            <figcaption class="octocat very-small">Seen here in his native habitat, the elusive Julian enjoys his
-                morning coffee.</figcaption>
-        </figure>
 
-    </article>
+            <figure id="octocat" class="image is-2by4">
+                <img alt="Julian Johannesen's custom Octocat"
+                    src="https://user-images.githubusercontent.com/252081/140809036-202933e0-6dc7-4cec-9e0a-3a5f63a20813.png" />
+                <figcaption class="octocat very-small">Seen here in his native habitat, the elusive Julian enjoys his
+                    morning coffee.</figcaption>
+            </figure>
+
+        </main>
+
+        <footer class="footer has-text-centered">
+            <p><small>&copy; Copyright 2021, Julian Johannesen</small></p>
+            <p><small>Please report any issues on the repo's <a
+                        href="https://github.com/julianjohannesen/julianjohannesen.github.io/issues"
+                        title="Report issues on Github">issues</a> page on GitHub.</small></p>
+            <p class="mt-2">
+                <a href="https://bulma.io">
+                    <img src="https://bulma.io/images/made-with-bulma.png" alt="Made with Bulma" width="128"
+                        height="24">
+                </a>
+            </p>
+        </footer>
+
+    </div>
 
 </body>
 
