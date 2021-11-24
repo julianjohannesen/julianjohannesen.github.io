@@ -1,0 +1,118 @@
+[
+    {
+        "toolName": "Git", 
+        "buttonColor": "F05032"
+    },
+    {
+        "toolName": "Yarn", 
+        "buttonColor": "117cad"
+    },
+    {
+        "toolName": "NPM", 
+        "buttonColor": "CB3837"
+    },
+    {
+        "toolName": "ESLint", 
+        "buttonColor": "4B3263"
+    },
+    {
+        "toolName": "Prettier", 
+        "buttonColor": "F7B93E"
+    },
+    {
+        "toolName": "Webpack", 
+        "buttonColor": "8DD6F9"
+    },
+    {
+        "toolName": "Heroku", 
+        "buttonColor": "430098"
+    },
+    {
+        "toolName": "Netlify", 
+        "buttonColor": "45b8d8"
+    },
+    {
+        "toolName": "JavaScript",
+        "buttonColor": "fc0"
+    },
+    {
+        "toolName": "HTML5",
+        "buttonColor": "E34F26"
+    },
+    {
+        "toolName": "CSS3",
+        "buttonColor": "CC6699"
+    },
+    {
+        "toolName": "Sass",
+        "buttonColor": "CB3837"
+    },
+    {
+        "toolName": "Styled Components",
+        "buttonColor": "db7092"
+    },
+    {
+        "toolName": "Bulma",
+        "buttonColor": "F7B93E"
+    },
+    {
+        "toolName": "Bootstrap",
+        "buttonColor": "8DD6F9"
+    },
+    {
+        "toolName": "Nodejs",
+        "buttonColor": "43853d"
+    },
+    {
+        "toolName": "Express",
+        "buttonColor": "000"
+    },
+    {
+        "toolName": "React",
+        "buttonColor": "45b8d8"
+    },
+    {
+        "toolName": "React Router",
+        "buttonColor": "8DD6F9"
+    },
+    {
+        "toolName": "Redux",
+        "buttonColor": "764ABC"
+    },
+    {
+        "toolName": "GraphQL",
+        "buttonColor": "E10098"
+    },
+    {
+        "toolName": "Postman",
+        "buttonColor": "FF6C37"
+    },
+    {
+        "toolName": "Next",
+        "buttonColor": "000"
+    },
+    {
+        "toolName": "Gatsby",
+        "buttonColor": "542c85"
+    },
+    {
+        "toolName": "Jekyll",
+        "buttonColor": "fc0"
+    },
+    {
+        "toolName": "MongoDB",
+        "buttonColor": "13aa52"
+    },
+    {
+        "toolName": "SQLite",
+        "buttonColor": "044a64"
+    },
+    {
+        "toolName": "PostgreSQL",
+        "buttonColor": "336791"
+    },
+    {
+        "toolName": "Sequelize",
+        "buttonColor": "52B0E7"
+    }
+]
