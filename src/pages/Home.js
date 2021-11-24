@@ -1,0 +1,16 @@
+import React from 'react';
+import Layout from '../components/Layout';
+import Projects from '../components/Projects';
+import FindMe from '../components/FindMe';
+import Octocat from '../components/Octocat';
+
+export default function Home() {
+    return (
+        <Layout>
+                
+                <Projects />
+                <FindMe />
+                <Octocat />
+        </Layout>
+    )
+}
