@@ -44,6 +44,8 @@
     "workbox-webpack-plugin": "^6.3.0"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.4"
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "bulma": "^0.9.3",
+    "classnames": "^2.3.1"
   }
 }
