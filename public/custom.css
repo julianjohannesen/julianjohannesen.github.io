@@ -3,3 +3,7 @@
     justify-content: center;
     align-items: center;
 }
+
+.full-width-cols .column.is-one-third.is-flex article.media.notification {
+    width: 100%;
+}
